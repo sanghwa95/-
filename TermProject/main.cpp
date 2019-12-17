@@ -91,7 +91,7 @@ bool create_block() {
     return res;
 }
 
-void call_loop() {
+void start() {
     srand((unsigned int)time(0));
 
 //    print_init();
@@ -114,7 +114,7 @@ int main() {
     //srand((unsigned int)time(0));
     // for testing func.
     {
-        call_loop();
+        start();
     }
     return 0;
 }
