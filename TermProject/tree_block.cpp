@@ -19,7 +19,7 @@ tree_block::tree_block(int c1, int c2, int c3) {
     array_2d::insert(big_block::v);
 }
 
-void tree_block::rotate() {
+void tree_block::rotate() {//rotate 추가 수정
     big_block::rotate_number++;
 
     block * _part1 = big_block::v.at(0);
