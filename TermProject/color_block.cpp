@@ -9,7 +9,7 @@ color_block::color_block(block *b) {
 
 }
 
-void color_block::insert(std::vector<block *> v) { // insert set of color blocks in array_2d
+void color_block::insert(std::vector<block *> v) {
 
     for(auto& idx : v) {
         s.push_back(idx);
